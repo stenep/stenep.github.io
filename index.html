@@ -19,7 +19,7 @@
   <body>
     <div id="map"></div>
     <script>
-      var map = L.map('map').setView([60.4074855, 7.3200314], 15);
+      var map = L.map('map').setView([60.4074855, 7.3200314], 14);
       var marker = L.marker([60.420175, 7.3046]).addTo(map);
       marker.bindPopup("<b>Yo!</b><br>Her er Grytahorgi ;)").openPopup();
       L.tileLayer('https://opencache.statkart.no/gatekeeper/gk/gk.open_gmaps?layers=topo4&zoom={z}&x={x}&y={y}', {
