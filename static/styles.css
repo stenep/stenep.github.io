@@ -30,7 +30,8 @@ a {
   left: 50%;
   transform: translate(-50%, -100%);
   animation-name: translate-up;
-  animation-duration: 2s;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
 }
 
 .bottom {
@@ -40,8 +41,11 @@ a {
   transform: translate(-50%, 0%);
   padding-top: 10px;
   animation-name: appear;
-  animation-duration: 3s;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-delay: 1.5s;
   text-align: center;
+  opacity: 0.0;
 }
 
 @keyframes translate-up {
